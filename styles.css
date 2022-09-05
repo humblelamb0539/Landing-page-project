@@ -2,17 +2,20 @@
 
 body {
     font-family: 'Patrick Hand', cursive; ;
-    margin: 0;
+    margin: 0px;
 }
 .body {
     color: aliceblue;
-    background-color: #2A0A49;
+    background-color: #472383;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .header {
+    align-items: center;
+    background: rgb(66,32,122);
+    background: linear-gradient(180deg, rgba(66,32,122,1) 0%, rgba(49,17,85,1) 100%);
     display: flex;
 }
 .header-links {
@@ -21,7 +24,8 @@ body {
     margin-left: auto;
 }
 ul {
-    
+    color: #E9D16C;
+    font-size: 20px;
     display: flex;
     list-style: none;
     gap: 10px;
@@ -29,27 +33,44 @@ ul {
     padding: 0;
 }
 .main { 
-  
+   padding-left: 100px;
+   padding-right: 100px;
+    justify-content: flex-end;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     height: 100%;
 }
 .main-text {
+    max-width: 600px;
+    padding: 50px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     font-size: 60px;
 }
+.pour {
+    display: flex;
+    justify-content: flex-end;
+}
+.cup {
+    max-height: 200px;
+    max-width: 200px;
+}
 .footer {
+    height: 75px;
+    color: #472383;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .logo {
-    height: 50px; 
-    width: 100px; 
+    height: 75px; 
+    width: 150px; 
     object-fit: contain;
 }
 .dairy-milk {
-    max-height: 300px;
-    max-width: 600px;
+    max-height: 600px;
+    max-width: 200px;
 }

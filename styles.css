@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+    font-family: 'Patrick Hand', cursive; ;
+    margin: 0;
+}
 .body {
+    color: aliceblue;
+    background-color: #2A0A49;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,8 +29,15 @@ ul {
     padding: 0;
 }
 .main { 
+  
     display: flex;
     height: 100%;
+}
+.main-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 60px;
 }
 .footer {
     display: flex;

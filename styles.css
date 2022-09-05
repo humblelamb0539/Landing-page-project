@@ -1,0 +1,26 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+}
+.main { 
+    display: flex;
+    height: 100%;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 50px; 
+    width: 100px; 
+    object-fit: contain;
+}
+.dairy-milk {
+    max-height: 300px;
+    max-width: 600px;
+}

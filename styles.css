@@ -18,9 +18,14 @@ body {
     background: linear-gradient(180deg, rgba(66,32,122,1) 0%, rgba(49,17,85,1) 100%);
     display: flex;
 }
+.nav {
+    text-decoration: none;
+    color: #E9D16C;
+}
 .header-links {
     padding: 10px;
     align-items: center;
+    margin-right: 10px;
     margin-left: auto;
 }
 ul {

@@ -81,6 +81,30 @@ ul {
 .product:hover {
     transform: scale(1.25);
 }
+.cocoa {
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.cocoa-text {
+    padding-bottom: 50px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.cocoa-heading {
+    font-size: 42px;
+}
+.cocoa-para {
+    margin-top: 0;
+    line-height: 26px;
+    font-size: 20px;
+}
+.banner {
+    max-height: 600px;
+}
 .pour {
     display: flex;
     justify-content: flex-end;

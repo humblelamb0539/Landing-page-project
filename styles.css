@@ -114,11 +114,12 @@ ul {
     max-width: 200px;
 }
 .footer {
+    padding: 20px;
     height: 75px;
     color: #472383;
     background-color: #FFFFFF;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .logo {
@@ -129,4 +130,21 @@ ul {
 .dairy-milk {
     max-height: 600px;
     max-width: 200px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+.icons {
+    gap: 10px;
+    justify-content: flex-end;
+    display: flex;
+}
+.footer-text {
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-para {
+    margin: 0;
 }

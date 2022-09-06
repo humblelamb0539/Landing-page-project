@@ -49,6 +49,38 @@ ul {
     align-items: center;
     font-size: 60px;
 }
+.our-products {
+    color: #472383;
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-names {
+    justify-content: center;
+    display: flex;
+    gap: 150px;
+}
+.products {
+    padding: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.product {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.product-img {
+    max-width: 200px;
+    max-height: 200px;
+}
+.product:hover {
+    transform: scale(1.25);
+}
 .pour {
     display: flex;
     justify-content: flex-end;
